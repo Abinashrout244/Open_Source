@@ -6,10 +6,16 @@
 }
 body {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   justify-content: center;
   align-items: center;
 }
 h1 {
   text-align: center;
+}
+h6 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 800;
 }
